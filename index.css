@@ -24,7 +24,7 @@ body {
     /*固定位置*/
     position: fixed;
     /* 背景图片 */
-    background-image: url("../云原神.jpg");
+    background-image: url("./云原神.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* 图片会随着鼠标进入item而改变，添加过渡效果 */
