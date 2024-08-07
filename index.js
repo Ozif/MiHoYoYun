@@ -1,4 +1,4 @@
-const allbg = ["./云原神.png", "./云崩坏.png"]
+const allbg = ["./云原神.jpg", "./云崩坏.jpg"]
 const allplaybg = ["./原神.svg", "./崩坏.svg"]
 const allhref = ["https://ys.mihoyo.com/cloud", "https://sr.mihoyo.com/cloud"]
 const logo = document.querySelectorAll('.go .yun-logo')
@@ -15,12 +15,12 @@ for (let i = 0; i < logo.length; i++) {
 document.querySelector('.yun-qiehuan').addEventListener('click', function () {
     if (document.querySelector('.play').href == "https://ys.mihoyo.com/cloud") {
         document.querySelector('.jump').style.backgroundImage = `url("./崩坏.svg")`
-        document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.png")`
+        document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.jpg")`
         document.querySelector('.play').href = "https://sr.mihoyo.com/cloud"
         console.log(document.querySelector('.play').href);
     } else {
         document.querySelector('.jump').style.backgroundImage = `url("./原神.svg")`
-        document.querySelector('.bg').style.backgroundImage = `url("./云原神.png")`
+        document.querySelector('.bg').style.backgroundImage = `url("./云原神.jpg")`
         document.querySelector('.play').href = "https://ys.mihoyo.com/cloud"
         console.log(document.querySelector('.play').href);
     }
@@ -29,12 +29,12 @@ document.querySelector('.yun-qiehuan').addEventListener('click', function () {
 document.querySelector('.qiehuan').addEventListener('click', function () {
     if (document.querySelector('.play').href == "https://ys.mihoyo.com/cloud") {
         document.querySelector('.jump').style.backgroundImage = `url("./崩坏.svg")`
-        document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.png")`
+        document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.jpg")`
         document.querySelector('.play').href = "https://sr.mihoyo.com/cloud"
         console.log(document.querySelector('.play').href);
     } else {
         document.querySelector('.jump').style.backgroundImage = `url("./原神.svg")`
-        document.querySelector('.bg').style.backgroundImage = `url("./云原神.png")`
+        document.querySelector('.bg').style.backgroundImage = `url("./云原神.jpg")`
         document.querySelector('.play').href = "https://ys.mihoyo.com/cloud"
         console.log(document.querySelector('.play').href);
     }
