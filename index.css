@@ -135,7 +135,7 @@ body {
 /*  */
 /* 跳转模块 */
 .jump {
-    background-image: url(../原神.svg);
+    background-image: url(./原神.svg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
