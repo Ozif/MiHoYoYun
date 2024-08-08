@@ -17,12 +17,12 @@ document.querySelector('.yun-qiehuan').addEventListener('click', function () {
         document.querySelector('.jump').style.backgroundImage = `url("./崩坏.svg")`
         document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.jpg")`
         document.querySelector('.play').href = "https://sr.mihoyo.com/cloud"
-        console.log(document.querySelector('.play').href);
+        //console.log(document.querySelector('.play').href);
     } else {
         document.querySelector('.jump').style.backgroundImage = `url("./原神.svg")`
         document.querySelector('.bg').style.backgroundImage = `url("./云原神.jpg")`
         document.querySelector('.play').href = "https://ys.mihoyo.com/cloud"
-        console.log(document.querySelector('.play').href);
+        //console.log(document.querySelector('.play').href);
     }
 })
 //移动端切换按钮功能
@@ -31,11 +31,11 @@ document.querySelector('.qiehuan').addEventListener('click', function () {
         document.querySelector('.jump').style.backgroundImage = `url("./崩坏.svg")`
         document.querySelector('.bg').style.backgroundImage = `url("./云崩坏.jpg")`
         document.querySelector('.play').href = "https://sr.mihoyo.com/cloud"
-        console.log(document.querySelector('.play').href);
+        //console.log(document.querySelector('.play').href);
     } else {
         document.querySelector('.jump').style.backgroundImage = `url("./原神.svg")`
         document.querySelector('.bg').style.backgroundImage = `url("./云原神.jpg")`
         document.querySelector('.play').href = "https://ys.mihoyo.com/cloud"
-        console.log(document.querySelector('.play').href);
+        //console.log(document.querySelector('.play').href);
     }
 })
